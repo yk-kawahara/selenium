@@ -19,9 +19,9 @@ python3.6 web-get-ubuntu.py
 ```
 exit
 ```
-### コンテナのIDを確認（b71fa45b2e27など）
+### 最後に起動したコンテナのIDを確認（b71fa45b2e27など）
 ```
-docker ps
+docker ps -l
 ```
 ### コンテナ内にある画像ファイルをローカル上に持ってくる
 ```
