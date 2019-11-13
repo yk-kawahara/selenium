@@ -1,10 +1,10 @@
 ### 大雑把な使い方一覧
 
 イメージの作成
-docker build -t test4 .
+docker build -t test .
 
 コンテナを作って入る
-docker run -it --name test22 test4 /bin/bash
+docker run -it --name test1 test /bin/bash
 
 コンテナ内でこちらのコードを実行
 python3.6 web-get-ubuntu.py
